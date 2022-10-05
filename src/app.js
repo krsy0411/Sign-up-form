@@ -18,13 +18,9 @@ template = `
             <div class="flex-text-field">아이디</div>
             <input id="id" name="id" value="" type="text" placeholder="아이디를 입력해주세요" />
           </div>
-          
-          <div id="button-container">
-            <button id="btn-join" type="submit">회원가입</button>
-          </div>
         </div>
 
-        <h1 class="notice">아래 입력된 내용은 절대 사적으로 이용하지 않습니다</h1>
+        <h3 class="notice">아래 입력된 내용은 절대 사적으로 이용하지 않습니다</h3>
         <p class="additional-text">Additional Information</p>
 
         <div id="additional">
@@ -36,13 +32,17 @@ template = `
               </div>
             </div>
 
-            <div class="detail-address">
-              <div class="detail-address-container">
+            <div class="detail-address-container">
+              <div class="detail-address-fields">
                 <input id="detail-address" name="detail-address" value="" type="text" placeholder="상세주소를 입력해주세요" />
               </div>
             </div>
           </div>
-        </div>  
+        </div>
+        
+        <div id="button-container">
+        <button id="btn-join" type="submit">회원가입</button>
+        </div>
       </div>
     </div>
   </div>

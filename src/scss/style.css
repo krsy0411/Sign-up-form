@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+#root {
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+#root .container {
+  width: 90%;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 10px 10px 35px #ededed;
+          box-shadow: 10px 10px 35px #ededed;
+  padding: 35px 35px;
+}
+
+#root .container .leading-block {
+  width: 100%;
+  height: 100%;
+}
+
+#root .container .leading-block .sign-up-form {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#root .container .leading-block .sign-up-form p.my-name {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+  margin-bottom: auto;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+#root .container .leading-block .sign-up-form #essential {
+  width: 100%;
+  -webkit-transform: translateX(-42px);
+          transform: translateX(-42px);
+  text-align: center;
+}
+
+#root .container .leading-block .sign-up-form #essential .name-fields {
+  width: 100%;
+}
+
+#root .container .leading-block .sign-up-form #essential .name-fields .flex-text-field {
+  width: 100%;
+  font-family: Ubuntu, sans-serif;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+
+#root .container .leading-block .sign-up-form #essential .name-fields input#name {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-bottom: 35px;
+}
+
+#root .container .leading-block .sign-up-form #essential .id-fields {
+  width: 100%;
+}
+
+#root .container .leading-block .sign-up-form #essential .id-fields .flex-text-field {
+  width: 100%;
+  font-family: Ubuntu, sans-serif;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+
+#root .container .leading-block .sign-up-form #essential .id-fields input#id {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-bottom: 35px;
+}
+
+#root .container .leading-block .sign-up-form h3.notice {
+  width: 100%;
+  font-family: Ubuntu, sans-serif;
+  font-size: 35px;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  margin-bottom: 35px;
+}
+
+#root .container .leading-block .sign-up-form p.additional-text {
+  width: 100%;
+  font-size: 35px;
+  opacity: 0.2;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  margin-bottom: auto;
+}
+
+#root .container .leading-block .sign-up-form #additional {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields {
+  width: 100%;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .address {
+  width: 100%;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .address label.address-text-box {
+  width: 100%;
+  font-family: Ubuntu, sans-serif;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .address .search-address-container {
+  width: 100%;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .address .search-address-container input#search-address {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-bottom: auto;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .detail-address-container {
+  width: 100%;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .detail-address-container .detail-address-fields {
+  width: 100%;
+}
+
+#root .container .leading-block .sign-up-form #additional .address-fields .detail-address-container .detail-address-fields input#detail-address {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-top: 20px;
+}
+
+#root .container .leading-block .sign-up-form #button-container {
+  margin-top: 20px;
+  width: 100%;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+#root .container .leading-block .sign-up-form #button-container button#btn-join {
+  width: 20%;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
